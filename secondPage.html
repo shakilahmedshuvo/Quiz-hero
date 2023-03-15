@@ -86,6 +86,59 @@
                 <h5>3.What is Event Loop and how it works?</h5>
                 <!-- answer -->
                 <p>
+                    The event loop is a fundamental concept in JavaScript that is responsible for
+                    <br>
+                    code in an efficient, non-blocking manner. 
+                    <br>
+                    It's a mechanism that allows JavaScript to handle
+                    asynchronous operations such as timers, network
+                    <br>
+                    requests, and user input without blocking the main
+                    execution
+                    <br>
+                    thread.
+
+                    Here's how the event loop works:
+
+                    The JavaScript engine continuously runs the main thread,
+                    <br>
+                    which executes code synchronously.
+
+                    When an asynchronous operation is initiated,
+                    <br>
+                    such as a timer or network request, it's added to a
+                    queue of
+                    <br>
+                    pending tasks.
+
+                    Once the main thread has finished executing its
+                    <br>
+                    current task, it checks the queue of pending tasks
+                    to see if there are
+                    <br>
+                    any tasks that need to be executed.
+
+                    If there are pending tasks, the event loop will select
+                    <br>
+                    the oldest task in the queue and execute it.
+                    If the task is an I/O operation,
+                    <br>
+                    it's handled by a separate thread in the browser or Node.js
+                    runtime.
+
+                    Once the task has been executed,
+                    <br>
+                    the event loop goes back to step 3 and repeats the process.
+
+                    By using the event loop, JavaScript is
+                    <br>
+                    able to handle multiple tasks simultaneously without blocking
+                    the main thread.
+                    <br>
+                    This allows web applications to be more responsive and interactive,
+                    <br>
+                    and can improve
+                    overall performance and user experience.
                 </p>
             </div>
         </div>

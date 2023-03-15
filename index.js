@@ -186,4 +186,4 @@ document.querySelector("#submit").addEventlistener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
-// new page function
+

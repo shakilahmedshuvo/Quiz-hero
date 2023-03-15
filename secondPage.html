@@ -24,36 +24,24 @@
                 <h5>1.What is the difference between Map,Filter,forEach,Find?</h5>
                 <!-- answer -->
                 <p>Answer:Map is used to transform each element of an array and returns a new array with
-                    <br>
+
                     the same number of
                     elements as the original array.
                     <br>
                     Filter is used to select a subset of elements from an array that meet a certain condition and
                     returns
-                    <br>
+
                     a new array with only the selected elements.
                     <br>
                     forEach is used to iterate through each element of an array and execute a callback
-                    <br>
+
                     function on each element. It does not return a new array.
-                    <br>
+
                     Find is used to search through an array and return the first element that
-                    <br>
+
                     meets a certain condition. If no element is found,
-                    <br>
+
                     it returns undefined.
-                    <br>
-                    In summary, map transforms each element of an array and returns a new array, filter selects a
-                    <br>
-                    subset
-                    of elements from an array that meet a certain condition and returns a new array,
-                    <br>
-                    forEach iterates
-                    through each element of an array and executes a callback function on each element,
-                    and
-                    <br>
-                    find searches
-                    through an array and returns the first element that meets a certain condition.
                 </p>
             </div>
             <!-- 2. -->
@@ -63,22 +51,19 @@
                 <!-- answer -->
                 <p>Local Storage: Local Storage is a way to store data in the browser with
                     no expiration date.
-                    <br>
+
                     It is
-                    persistent data that is available even after the browser is closed and
-                    reopened.
+                    persistent data that is available even after the browser
+                    is closed and reopened.
+                    Session Storage: Session Storage is similar to Local Storage, but the data is
+                    only available for
+
+                    the duration of the browser session.
+                    <br>
+                    Cookies: Cookies are small text files that are stored in the
+                    browser by websites. They can be set to
+                    expire after a certain period of time.
                 </p>
-                Session Storage: Session Storage is similar to Local Storage, but the data is
-                only available for
-                <br>
-                the duration of the browser session.
-                <br>
-                Cookies: Cookies are small text files that are stored in the
-                <br>
-                browser by websites. They can be set to
-                expire after a certain period of time, or they
-                <br>
-                can be set to be persistent.
             </div>
             <!-- 3. -->
             <div class="mt-4">
@@ -88,57 +73,31 @@
                 <p>
                     The event loop is a fundamental concept in JavaScript that is responsible for
                     <br>
-                    code in an efficient, non-blocking manner. 
-                    <br>
+                    code in an efficient, non-blocking manner.
                     It's a mechanism that allows JavaScript to handle
-                    asynchronous operations such as timers, network
+                    asynchronous operations such as timers,
                     <br>
+                    network
+                
                     requests, and user input without blocking the main
                     execution
-                    <br>
                     thread.
-
+                    
+                    
                     Here's how the event loop works:
-
+                    
                     The JavaScript engine continuously runs the main thread,
-                    <br>
+                
                     which executes code synchronously.
 
                     When an asynchronous operation is initiated,
-                    <br>
+                
                     such as a timer or network request, it's added to a
                     queue of
-                    <br>
+
                     pending tasks.
 
-                    Once the main thread has finished executing its
-                    <br>
-                    current task, it checks the queue of pending tasks
-                    to see if there are
-                    <br>
-                    any tasks that need to be executed.
 
-                    If there are pending tasks, the event loop will select
-                    <br>
-                    the oldest task in the queue and execute it.
-                    If the task is an I/O operation,
-                    <br>
-                    it's handled by a separate thread in the browser or Node.js
-                    runtime.
-
-                    Once the task has been executed,
-                    <br>
-                    the event loop goes back to step 3 and repeats the process.
-
-                    By using the event loop, JavaScript is
-                    <br>
-                    able to handle multiple tasks simultaneously without blocking
-                    the main thread.
-                    <br>
-                    This allows web applications to be more responsive and interactive,
-                    <br>
-                    and can improve
-                    overall performance and user experience.
                 </p>
             </div>
         </div>
